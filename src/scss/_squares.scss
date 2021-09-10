@@ -1,0 +1,60 @@
+.squares {
+	width: 100%;
+	height: 100vh;
+	background: rgb(180, 157, 157);
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__item {
+		width: 250px;
+		height: 250px;
+		background: #000;
+		position: absolute;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid rgb(0, 0, 0);
+		z-index: 1000;
+	}
+
+	&__item_1 {
+		top: calc(50% - 250px);
+		left: calc(50% - 250px);
+	}
+
+	&__item_2 {
+		top: calc(50% - 250px);
+		left: calc(50%);
+	}
+
+	&__item_3 {
+		top: calc(50%);
+		left: calc(50% - 250px);
+	}
+
+	&__item_4 {
+		top: calc(50%);
+		left: calc(50%);
+	}
+
+	&__circle {
+		width: 250px;
+		height: 250px;
+		border-radius: 250px;background: #000;
+		transition: all 0.5s;
+		opacity: 0;
+		transform: rotate(180deg);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		color: #fff;
+		cursor: pointer;
+		font-size: 25px;
+	}
+}

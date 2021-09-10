@@ -1,0 +1,12 @@
+[
+	{"mark":"pegeut", "model":"206", "year":"2008", "delivery":"21.05.2021-30.05.2021"},
+	{"mark":"pegeut", "model":"206", "year":"2008", "delivery":"21.06.2021-30.06.2021"},
+	{"mark":"audi", "model":"A3", "year":"2015", "delivery":"22.05.2021-24.05.2021"},
+	{"mark":"audi", "model":"A3", "year":"2020", "delivery":"15.05.2021-28.05.2021"},
+	{"mark":"bmw", "model":"M5", "year":"2015", "delivery":"10.05.2021-18.05.2021"},
+	{"mark":"tesla", "model":"model S", "year":"2015", "delivery":"01.05.2021-25.05.2021"},
+	{"mark":"tesla", "model":"cybertruck", "year":"2018", "delivery":"04.05.2021-10.05.2021"},
+	{"mark":"tesla", "model":"cybertruck", "year":"2017", "delivery":"13.05.2021-29.05.2021"},
+	{"mark":"audi", "model":"Q8", "year":"2021", "delivery":"01.05.2021-30.05.2021"},
+	{"mark":"tesla", "model":"cybertruck", "year":"2022", "delivery":"08.05.2021-26.05.2021"}
+]
